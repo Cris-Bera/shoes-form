@@ -36,12 +36,14 @@
 
        <div class="column">
         <label for="email">Email</label>
-         <input type="email" id="email" name="email" placeholder="exemplo@exemplo.com" required>
+         <input type="email" name="email" id="email" 
+         placeholder="exemplo@exemplo.com" required>
        </div>
 
  <div class="column">
         <label for="phone-number">Telefone</label>
-         <input type="tel" id="phone-number" name="phone-number" placeholder="(xx) 9xxxx-xxxx" required>
+         <input type="tel" name="phone-number" id="phone-number"  
+         placeholder="(xx) 9xxxx-xxxx" required>
        </div>
 
        <div class="column">
@@ -62,31 +64,36 @@
         id="full-time" value="true">
         <label for="full-time">Integral (8h)</label>
         </div>
-
-        <div class="checboxes">
           <div>
           <input type="checkbox" name="half-time"
           id="half-time" value="true">
           <label for="half-time">Meio Período</label>
           </div>
-          <div class="checboxes">
             <div>
             <input type="checkbox" name="freelancer"
             id="freelancer" value="true">
             <label for="freelancer">Freelancer</label>
             </div>
-       </div>
+          </div>
+
 <label>Qual a melhor forma para entrarmos em contato com você?</label>
-<div class="checkboxes"></div>
+<div class="checkboxes">
         <div>
-          <input type="radio" name="contact" value="email" 
-          id="via-email">Email <label for="via-email"></label></div>
+          <input type="radio" name="contact" 
+          value="email" id="via-email">
+          <label for="via-email">Email</label>
+        </div>
           <div>
-            <input type="radio" name=" contact" value="call" 
-            id="via-call">Ligação <label for="via-call"></label></div>
+            <input type="radio" name=" contact" 
+            value="call" id="via-call">
+            <label for="via-call">Ligação</label>
+          </div>
             <div>
-              <input type="radio" name=" contact" value="watsapp"
-              id="watsapp">Watsapp <label for="via watsapp"></label></div>
+              <input type="radio" name=" contact" 
+              value="watsapp" id="watsapp">
+              <label for="via watsapp">Watsapp</label>
+            </div>
+          </div>
 
               <div class="column">
                 <label for="message">Mensagem</label>
